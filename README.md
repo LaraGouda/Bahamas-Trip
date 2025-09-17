@@ -37,7 +37,7 @@ The site demonstrates **HTML, CSS, and JavaScript** skills such as DOM manipulat
 ├── index.html      # Main page with content and structure
 ├── styles.css      # Styling and layout (light + dark mode)
 ├── index.js        # JavaScript logic for interactivity
-└── img/            # Images used in the project (not included here)
+└── img/            # Images used in the project
 ```
 
 ---
