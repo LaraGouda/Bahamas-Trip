@@ -1,0 +1,461 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #86b6cc; 
+  font-size: 20px;
+  color: var(--text-color);
+  font-family: Tahoma, sans-serif;
+  margin: 100px;
+  padding-bottom: 0px;
+}
+
+h1 {
+  color: #3f9ebd;
+  font-family: monospace; 
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+h3 {
+  padding-left: 25px;
+  margin-top: 15px;
+  font-size: 22px;
+  margin-bottom: 0px;
+  color:rgb(17, 26, 83);
+  text-decoration: underline;
+  text-align: center;
+}
+
+h4 {
+  color: aliceblue; 
+}
+
+h5 {
+  color: red;
+}
+
+h6 {
+  background-color: #280a43;
+}
+
+p {
+  font-family:monospace;
+}
+
+.black {
+  color: black;
+}
+
+a:link {
+  color:rgb(17, 26, 83);
+}
+a:visited {
+  color: #280a43;
+}
+a:hover {
+  color:white;
+
+}
+a:active {
+  color: black;
+}
+
+button {
+  background-color:#f7b844;
+  color: black;              
+  border: none;           
+  padding: 5px 12px;         
+  border-radius: 5px;         
+  cursor: pointer;            
+  margin-top: 0px;
+  margin-bottom: 5px;
+
+}
+button:hover {
+  background-color:white;
+  color:#ef9f0a
+}
+
+.aligncenter {
+  text-align: center;
+  align-items: center;
+}
+
+.white {
+  color:white;
+}
+
+.trip-title {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block; 
+  margin-bottom: 5px;
+}
+
+.header-container { 
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  margin: 50px;
+  padding-top: 190px;
+  padding-bottom: 300px;
+}
+
+.header-item:nth-of-type(1) {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+  align-items: flex-end;  
+}
+
+.header-item:nth-of-type(2) {
+  width: 55%
+}
+
+#header-img {
+  width: 300px;
+  max-width:300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.header-button {
+  align-content: flex-start;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#description {
+  color: black;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.about-container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.expectation-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.expectation-text {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 25px;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+.expectation-video {
+  margin-right: 150px;
+  margin-left: 50px;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.extrapadding {
+  padding-bottom: 50px;
+}
+
+.whitetext-background {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: #3f9ebd;
+  margin-bottom: 0px;
+}
+
+.centered-list {
+  color: black;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.yellow {
+  color: #f7b844;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.schedule-full-container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.schedule-half-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 20px;
+  margin: 10px;
+}
+
+.jetskiing-container{
+  background-color: #c7dbe5;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.tour-container {
+  background-color: #c7dbe5;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cruise-container {
+  background-color: #c7dbe5;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.links-container {
+  padding-top: 5px;
+}
+
+.footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #c7dbe5;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  z-index: 1000; 
+  list-style: none;
+  overflow:hidden;
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #0c3048;
+}
+
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: white
+}
+
+.navbar ul li a:hover {
+  color: #f7b844;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#rsvp {
+  padding-top: 40px;
+}
+
+.rsvp-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-content: space-evenly;
+  margin-top: 20px;
+}
+
+#rsvp-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rsvp-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.rsvp-participants {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.text-size {
+  font-size: 16px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background-color: salmon;
+}
+
+.modal {
+  display: none;  
+  position: fixed;
+  z-index: 2;     
+  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0,0,0,0.4); 
+
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  padding: 50px;
+  width: 55%;
+
+  background-color: rgb(199, 234, 255);
+  text-align: center;
+  font-size: 1rem;
+  font-family: monospace;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+
+}
+
+.close-button {
+  padding: 20px;
+}
+
+.modal-text {
+  font-size: 23px;
+}
+
+.modal-text-title {
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+.modal-item {
+  flex: 1;
+  text-align: left;
+}
+
+
+
+.cat-img {
+  width: 150px;
+  margin-left: 100px; 
+}
+
+
+.dark-mode {
+  background-color:#072f41;
+  color: white;
+}
+
+.dark-mode h1 {
+  color: #072f41; 
+}
+
+.dark-mode h2 {
+  color: #072f41; 
+}
+
+.dark-mode p {
+  color: white; 
+}
+
+.dark-mode h3 {
+  color: white; 
+}
+
+.dark-mode .navbar ul {
+  background-color: black;
+}
+
+.dark-mode .navbar ul li a {
+  color: #ccc; 
+}
+
+.dark-mode .navbar ul li a:hover {
+  color: #f7b844; 
+}
+
+.dark-mode .footer {
+  background-color: #5c8699;
+}
+
+#theme-button {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #86b6cc;
+  text-decoration: underline;
+  text-decoration-color: #f7b844;
+}
+
+
+
+/*** Custom Colors (OPTIONAL) ***
+  
+  Purpose:
+  - Use CSS variables to define custom colors for your website
+  - To get you started, we've provided the color scheme used in our example site.
+  - To reference a color variable in your css, use var(--variable-name) in place of a color value
+
+  When To Modify:
+  - [ ] Any time (OPTIONAL)
+***/
+
+:root {
+    /* Light Mode */
+    --bg-color: #a6a0cf;
+    --text-color: #231942;
+
+    /* Dark Mode */
+    --bg-color-dark-mode: #3e3377;
+    --text-color-dark-mode: #fff;
+
+    /* Accent Colors */
+    --accent-color-light: #d2cff5;
+    --accent-color-medium: #684fb5;
+    --accent-color-dark: #482f95;
+    --accent-color-darkest: #231942;
+    --accent-color-green: #28eb76;
+
+    /* Error Colors */
+    --error-color: #f8bbd0;
+    --error-color-border: #e63946;
+}

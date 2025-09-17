@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bahamas Trip!</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/bahamas.png">
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#rsvp">RSVP & Links</a></li>
+                <li><button id="theme-button">Toggle Dark Mode</button></li>
+            </ul>
+        </div>
+
+        <div class="header-container" id="home">
+            <div class="header-item">
+                <div id="header-img">
+                    <img id="header-img" src="/img/bahamas.png"/>
+                </div> 
+            </div> 
+            <div class="header-item">
+                <h1 style="font-size: 70px" class="trip-title"> Bahamas Trip</h1>
+                <h3 id="description"> Everything You Need to Know about the Trip! </h3>
+                <div class="header-button">
+                    <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWgwNzdudjk5MGxlMm9vNWNkcWp0MjJlcXYgY184ZmQyODMwZTA0M2ZjYmM0Zjg1ODUwNDJkYWU2NDA5MTBlYmJjZDc0ODNjYzNjNTUxZDg3YjRmZTQxYjcwMWEwQGc&amp;tmsrc=c_8fd2830e043fcbc4f8585042dae640910ebbcd7483cc3c551d87b4fe41b701a0%40group.calendar.google.com"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
+                </div> 
+            </div> 
+        </div>
+
+        <div class="about-container" id="about">
+            <h2 class="aligncenter whitetext-background">About the Event</h2>
+            <p class="white aligncenter extrapadding"> We are Heading to Nassau, Bahamas!</p>
+
+            <div class="expectation-section">
+                <div class="expectation-text">
+                    <p class= "black">This website is about our Bahamas Trip, happening on August 29th - September 1st 2025. It is a celebration for my friend’s birthday and a trip for my friend group. This website will show all the details ranging from budget to itinerary.</p>
+                </div>
+                <div class="expectation-video">
+                    <iframe width="447" height="252" src="https://www.youtube.com/embed/XyjQjXt2n48" title="Bahamas Cable Beach - the Best Beach in Nassau" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <h3 class="aligncenter white">What to Expect:</h3>
+            <ul class="centered-list">
+                <li> <b class="underline">Jet Skiing & Snorkling:</b> <i class ="yellow">Beach Activity</i></li>
+                <li> <b class="underline">Island Tour:</b> <i class ="yellow">Outdoor Tour</i></li>
+                <li> <b class="underline">Sunset Cruise:</b> <i class ="yellow">Dinner and Birthday</i></li>
+            </ul>
+        </div>
+
+        <div class="schedule-full-container" id="schedule">
+            <h2 class="aligncenter whitetext-background">Event Schedule</h2>
+
+            <div class="schedule-half-container">
+                <div class="jetskiing-container">
+                    <h3 class="yellow">Day 1: Jet Skiing & Snorkling</h3>
+                    <p class= "black">Nassau has a beautiful ocean ecosystem, we will be snorkling in the ocean. </p>
+                    <img alt="This is a picture of the a girl snorkling." src="img/snorkling.png" width="320" height="320"/>
+                </div>
+
+                <div class="tour-container">
+                    <h3 class="yellow">Day 2: Island Tour</h3>
+                    <p class= "black">On a guided tour, we will explore the beautiful island.</p>
+                    <img alt="This is a picture of Nassau, Bahamas." src="img/island.png" width="320" height="320"/>
+                </div>  
+
+                <div class="cruise-container">
+                    <h3 class="yellow">Day 3: Sunset Cruise and Dinner</h3>
+                    <p class= "black">On a pretty sunset cruise, we will be celebrating the birthday.</p>
+                    <img alt="This is a picture of a cruise on the sunset." src="img/cruise.png" width="320" height="320"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="rsvp">
+            <h2 class="aligncenter whitetext-background">RSVP</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <h4 class="text-size"> Let us know you're in! 🎉
+<br><br> We're headed on an unforgettable Girls Trip to celebrate our friend's birthday from August 29th to September 1st, 2025. <br><br> Please take a moment to RSVP so we can plan accordingly—everything from room arrangements to group activities depends on your response! </h4>
+                </div>
+                <div class="rsvp-participants">
+                    <p class="text-size">🎟️ Sughra from Connecticut has RSVP'd.</p>
+                    <p class="text-size">🎟️ Claire from New York has RSVP'd.</p>
+                    <p class="text-size">🎟️ Alyssa from Massachusetts has RSVP'd.</p>
+                    <p id="rsvp-count" class="text-size">⭐ 3 people have RSVP'd to this event!</p>
+                </div>
+            </div>
+            <div class="form-container">
+                    <form id="rsvp-form" title="rsvp-form">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name">
+                    <label for="homeState">Home State: </label>
+                    <input type="text" id="homeState"> </input>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email"> </input>
+                    </form>
+                    <button id="rsvp-button">Submit RSVP</button>
+            </div>    
+        </div>
+
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                <p class="modal-text-title"> RSVP: ACCEPTED ✅</p>
+                <p id="text-in-modal">Pack your bags now! You're officially coming with us to the trip!</p>
+                <br>
+                <button id="close-button">Close</button>
+                </div>
+                <div>
+                <img src="/img/cat-celebrating.png" height="300" width="300" id="cat-img"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="links-container">
+            <h2 id="links" class="whitetext-background aligncenter">Links</h2>
+            <div class="links-container-in">
+                <a class="block" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/nassau/nasba/hoteldetail">
+                    <article>
+                        <h3>Holiday Inn Express & Suites Nassau by IHG </h3>
+                        <p class="aligncenter">This is the hotel we will be staying at!</p>
+                    </article>
+                </a>
+                <a class="block" href="https://www.expedia.com/Flight-Information?journeyContinuationId=AQq7AgqlAnY1LXNvcy0zNmUwYTIxNjVlM2E0M2Y2OTRiYmY0NDk3MTQzMjA2My0xNy0xfjkuU35BUW9DQ0FFU0J3alVCQkFCR0FFb0FsZ0NjQUI2QTJKbWM0Z0J2WTNPVXBBQkFxb0JCd29EU2taTEVBQ3lBUWNLQTA1QlV4QUF-QVFvdkNpMEl3bXdTQXpFeU1SaXBVU0NOa0FFb21LUDJBakRQcFBZQ09GQkFBRmdCYWdKQlRuSUlVRWs1UVVkRldUVUtNQW91Q01Kc0VnUXlPVEl5R0kyUUFTQ3BVU2pyeHZZQ01Kdkk5Z0k0VFVBQVdBRnFBa0ZPY2doTlNUQkJVa1ZaTlJJS0NBRVFBUmdCS2dKQ05oZ0JJZ1FJQVJBQktBSW9BeWdFTUFFEa5H4XoUxIRAIgEBKgUSAwoBMRI_ChYKCjIwMjUtMDgtMjkSA0pGSxoDTkFTChYKCjIwMjUtMDktMDESA05BUxoDSkZLEgcSBUNPQUNIGgIQASACGgsIARIHGgM6AQAiABoICAISBBoAIgAgATILCP___________wE%3D">
+                    <article>
+                        <h3>JetBlue Flight Tickets</h3>
+                        <p class="aligncenter">This link will take you to expedia with our flight tickets.</p>
+                    </article>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a class="block" href="https://drive.google.com/file/d/1VNCm6Oh885pEDhtKERq3YoQmf75BVacX/view?usp=sharing">
+                <article>
+                    <h3>Print Itinerary</h3>
+                </article>
+            </a>
+    
+            <h3> | </h3>
+
+            <a class="block" href="mailto:lara.gouda@stonybrook.edu">
+                <article>
+                    <h3>Contact Me</h3>
+                </article>
+            </a>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
