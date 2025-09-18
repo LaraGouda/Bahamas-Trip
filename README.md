@@ -52,4 +52,4 @@ The site demonstrates **HTML, CSS, and JavaScript** skills such as DOM manipulat
 ## 📧 Contact
 
 For questions or suggestions, feel free to reach out:  
-**[Lara Gouda]]** – [lara.gouda@stonybrook.edu]  
+**[Lara Gouda]** – [lara.gouda@stonybrook.edu]  
