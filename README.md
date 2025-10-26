@@ -4,6 +4,8 @@ This project is a fun, interactive website created during a CodePath course (WEB
 
 The site demonstrates **HTML, CSS, and JavaScript** skills such as DOM manipulation, form validation, dynamic content updates, and theme toggling.
 
+This site is live and can be found at www.bahamastrip.live !
+
 ---
 
 ## 🚀 Features
